@@ -10,7 +10,9 @@ class UserMatching {
 }
 
 // This using for analyst and give recommend for matching
-// This using for analyst and give recommend for matching
+
+// Path: SE346_Mobile_Programming/lib/app/models/users/user_matching.dart
+// Compare this snippet from SE346_Mobile_Programming/lib/app/core/variables/var_colors.dart:
 
 // Path: SE346_Mobile_Programming/lib/app/models/users/user_matching.dart
 // Compare this snippet from SE346_Mobile_Programming/lib/app/core/variables/var_colors.dart:

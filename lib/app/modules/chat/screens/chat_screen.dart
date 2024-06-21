@@ -21,6 +21,9 @@ class ChatScreen extends StatelessWidget {
     int hour = diff.inHours;
     int minute = diff.inMinutes;
     int second = diff.inSeconds;
+
+    // TODO: Centralize as helper in future
+    // condition rendering for active times 
     if (year > 0) {
       return year == 1 ? '1 year ago' : '$year years ago';
     }
