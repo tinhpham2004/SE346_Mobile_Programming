@@ -55,7 +55,7 @@ class OpenAIService {
       ],
     );
     final response = await openAI.onChatCompletion(request: request);
-    String answer = 'Xin hãy đặt câu hỏi khác.';
+    String answer = 'Xin hãy đặt câu hỏi khác!';
     for (var element in response!.choices) {
       if (element.message != null) {
         answer = element.message!.content;
